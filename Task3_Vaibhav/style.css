@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+.for{
+	display: inline-flex;
+	justify-content: space-between;
+}
+.first{
+	width: 80%;
+	margin: 0 auto;
+}
+.inner{
+	display: flex;
+	justify-content: space-around;
+}
+.values{
+	background-color: #f5f7fa;
+	border-bottom: 1px solid lightgrey;
+}
+.value{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.dollor_ic{
+	padding-top: 5px;
+}
+.valuetext{
+	float: right;
+	padding: 10px;
+
+}
+.text1{
+	font-size: 30px;
+	color: black;
+	margin: 0px;
+}
+.text2{
+	font-size: 25px;
+	color: red;
+	margin: 0px;
+}
+
+
+.inner1{
+	display: flex;
+	justify-content: space-between;
+}
+.second{
+	width: 80%;
+	margin: 0 auto;
+}
+.card{
+	margin: 30px 0;
+	background-repeat: no-repeat;
+	background-position: right bottom; 
+	padding: 20px;
+	padding-bottom: 25px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+.text3{
+	font-size: 25px;
+	text-align: center;
+	color: red;
+	margin: 15px 0;
+}
+.text4{
+	text-align: left;
+	font-size: 15px;
+}
+.cardbutton{
+	background-color: darkred;
+	padding: 10px;
+	border:1px;
+	border-radius: 2px;
+	color: white;
+	font-family: sans-serif;
+}
