@@ -70,12 +70,122 @@ body{
 .text4{
 	text-align: left;
 	font-size: 15px;
+	color: black;
 }
 .cardbutton{
+	margin-top: 10px;
 	background-color: darkred;
 	padding: 10px;
 	border:1px;
 	border-radius: 2px;
 	color: white;
 	font-family: sans-serif;
+}
+
+.event{
+	width: 100%;
+	background-image: url(images/event_bg.png);
+	background-size: cover;
+}
+.inner2{
+	display: flex;
+	justify-content: space-between;
+}
+.third{
+	width: 80%;
+	margin: 0 auto;
+}
+.info{
+	margin-top:10px;
+}
+.cardbutton2{
+	background-color: darkred;
+	padding: 10px;
+	border:1px;
+	border-radius: 2px;
+	color: white;
+	font-family: sans-serif;
+}
+.info p{
+	margin: 0px;
+	font-size: 15px;
+	color: black;
+}
+.info a{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
+.question{
+	background-color: #3e3f40;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 260px;
+	padding: 28px;
+}
+.question h1,p,h2{
+	text-align: center;
+	margin: 0px;
+	color: white;
+}
+.question form{
+	margin-top: 20px;
+}
+.question form button{
+	display: block;
+	margin:10px auto;
+	margin-bottom:0px;
+	color: white;
+	background-color: #97999c;
+	border: 0;
+	border-radius: 5px;
+}
+.question input{
+	margin-bottom: 7px;
+	padding: 2px;
+}
+.question input:nth-child(1){
+	width: 116px
+}
+.question input:nth-child(2){
+	margin-left: 3px;
+	width: 117px;
+}
+.question input:nth-child(4){
+	width: 248px
+}
+.question textarea{
+	width: 250px
+}
+
+
+.contact{
+	width: 100%;
+	background-image: url(images/contact_us_bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.inner3{
+	display: flex;
+	justify-content: space-between;
+}
+.forth{
+	width: 80%;
+	margin: 0 auto;
+}
+.info2 h1,h5,p{
+	color: white;
+	margin: 0px;
+}
+.info2 h1{
+	font-size: 50px;
+}
+.info2 h5{
+	font-size: 25px;
+}
+.info2 p{
+	color: lightgrey;
+}
+.info2 form{
+	margin-top: 20px;
 }
